@@ -1,0 +1,103 @@
+/*!
+Theme Name: Bizni
+Theme URI: http://shahinur.me/
+Author: Shahinur Rahman
+Author URI: http://shahinur.me/
+Description: This theme is for practice only
+Version: 1.0.0
+License: GNU General Public License v2 or later
+Text Domain: bizni
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+*/
+
+
+.featured-img img {
+	widows: 422px;
+	height: 280px;
+}
+
+/* News Post css*/
+.news-image img{
+	max-width: 360px;
+	height: 240px;
+}
+
+/*Project  CSS*/
+.project-item img{
+	width: 360px;
+	height: 265px;
+}
+
+/*Pagination CSS*/
+.nav-links .page-numbers {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+.nav-links .page-numbers li {
+	display: inline-block;
+}
+.nav-links .page-numbers li a, 
+.nav-links .page-numbers li span {
+	position: relative;
+	float: left;
+	padding: 10px 16px;
+	font-size: 18px;
+	line-height: 1.3333333;
+	color: #77be2d;
+	text-decoration: none;
+	background-color: #fff;
+	border: 1px solid #ddd;
+	font-weight: 500;
+	margin-left: -5px;
+}
+.page-numbers.current {
+	background: #77be2d !important;
+	color: #fff !important;
+}
+.nav-links .page-numbers li a:focus, 
+.nav-links .page-numbers li a:hover, 
+.nav-links .page-numbers li span:focus, 
+.pagination > li > span:hover {
+	z-index: 2;
+	color: #23527c;
+	background-color: #eee;
+	border-color: #ddd;
+}
+
+.navbar-nav > li.dropdown:hover > a, 
+.navbar-nav > li.dropdown:hover > a:hover, 
+.navbar-nav > li.dropdown:hover > a:focus {
+	color: rgb(85, 85, 85);
+}
+.navbar-nav  li a:hover {
+	background: none !important;
+	color: #77be2d !important;
+}
+.navbar-nav > li > a {
+	text-transform: uppercase;
+}
+/*widgets Css*/
+.widget-recent-posts ul li img {
+	float: left;
+	 margin-right: 5px;
+	width: 80px;
+	height: 55px;
+	margin-left: -14px;
+}
+#contactgoogleMap {
+	margin-bottom: -27px !important;
+}
+
+.children > .comment_tree ul ul{
+	padding-left: 30px !important;
+}
+
+.comment-form input[type="submit"] {
+	display: inline-block;
+	width: auto;
+	padding: 13px 18px;
+	font-size: 17px;
+	font-weight: normal;
+}
